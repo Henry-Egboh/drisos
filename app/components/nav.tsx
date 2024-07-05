@@ -95,7 +95,7 @@ const NavBar = () => {
         className={`md:hidden fixed w-full top-10 left-0 flex flex-col gap-6 p-4 text-white items-center justify-center bg-lime-950 z-50 ${
           isOpen
             ? "flex"
-            : "top-0 -left-full transition duration-3000 ease-in-out"
+            : "top-0 -left-[200%] transition duration-1000 ease-in-out hidden"
         }`}
       >
         {links.map((link) => (

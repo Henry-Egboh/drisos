@@ -2,6 +2,11 @@ import Link from "next/link";
 import { LuCloudSunRain } from "react-icons/lu";
 import { LuVegan } from "react-icons/lu";
 
+const linkClassName = {
+  classname: `transition ease-in-out delay-150 duration-300 block hover:text-lime-50
+  leading-10 hover:translate-y-1 hover:scale-90`,
+};
+
 const Footer = () => {
   return (
     <footer className=" bg-lime-950 text-white px-2 md:px-16 py-8">
@@ -19,7 +24,9 @@ const Footer = () => {
             <div className="transition ease-in-out delay-100 duration-200 hover:text-lime-50">
               {" "}
               <h4>Royce Co</h4>
-              <p className="text-opacity-50 font-light text-sm tracking-wider">Imagination</p>
+              <p className="text-opacity-50 font-light text-sm tracking-wider">
+                Imagination
+              </p>
             </div>
           </div>
           {/*  */}
@@ -28,7 +35,9 @@ const Footer = () => {
             <div className="transition ease-in-out delay-100 duration-200 hover:text-lime-50">
               {" "}
               <h4>Eagle Flight</h4>
-              <p className="text-opacity-50 font-light text-sm tracking-wider">Possible</p>
+              <p className="text-opacity-50 font-light text-sm tracking-wider">
+                Possible
+              </p>
             </div>
           </div>
         </aside>
@@ -45,34 +54,22 @@ const Footer = () => {
           <div>
             <ul>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Salter goo
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Salter goo
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Salter goo
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Salter goo
                 </Link>
               </li>
@@ -81,34 +78,22 @@ const Footer = () => {
           <div>
             <ul>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Drisos sauce
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Drisos sauce
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Drisos sauce
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Drisos sauce
                 </Link>
               </li>
@@ -117,34 +102,22 @@ const Footer = () => {
           <div>
             <ul>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Lorem ipsum dolor sit.
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Lorem ipsum dolor sit.
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Lorem ipsum dolor sit.
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Lorem ipsum dolor sit.
                 </Link>
               </li>
@@ -153,34 +126,22 @@ const Footer = () => {
           <div>
             <ul>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Maude Clause
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Maude Clause
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Maude Clause
                 </Link>
               </li>
               <li>
-                <Link
-                  className="transition ease-in-out delay-150 duration-300 block hover:text-lime-50 hover:border-b-2 leading-10 hover:translate-y-1 hover:scale-90"
-                  href="/"
-                >
+                <Link className={linkClassName.classname} href="/">
                   Maude Clause
                 </Link>
               </li>

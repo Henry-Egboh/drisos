@@ -9,9 +9,9 @@ const quicksand = Quicksand({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Drisos --- It is a LifeStyle",
   description: "Drisos gives you the best experience you can get",
-  // icons: {
-  //   icon: "/icon.png",
-  // },
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
